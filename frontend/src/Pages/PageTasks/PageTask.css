@@ -1,0 +1,71 @@
+.div-task{
+  
+    height: 295px;
+    width: 220px;
+    background: linear-gradient(90deg,#ffc8dd 0%,#bde0fe 80%) blueviolet;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    top:20%;
+    left: 40%;
+    z-index: 1;
+}
+.form-task{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.form-task input{
+    margin: auto;
+    margin-bottom:20px;
+    width: 180px;
+    height: 38px;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+}
+.form-task input::placeholder{
+    color: gray;
+   
+}
+.form-task :nth-child(5){
+    margin: auto;
+    margin-bottom:20px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color:turquoise;
+    border-radius: 8px;
+}
+.fa-times-circle{
+    color: deepskyblue;
+    font-size: 24px;
+}
+.div-close button{
+    width:30px;
+    height: 30px;
+    float: right;
+    background-color: transparent;
+    border: none;
+}
+
+.main-task{
+    margin-top: 1%;
+    margin-left: 1%;
+    width:75%;
+}
+
+.filter-div{
+    margin-bottom: 20px;
+}
+.btn-add{
+    box-shadow: 1px 1px 4px black;
+    margin-left: 10px;
+}
+.active{
+    display: block;
+}
+.popup-active{
+    opacity: 6%;
+    background: black;
+}

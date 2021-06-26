@@ -1,0 +1,40 @@
+.content-div{
+    height: 100%;
+    display: flex;
+}
+.content{
+    height: 100%;
+}
+.table-main{
+    margin-top: 1%;
+    margin-left: 2%;
+    width:75%;
+}
+.table-main h2{
+    font-size: 38px;
+}
+.table-head tr{
+    
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background: black;
+}
+.class-tbody{
+   background: linear-gradient(190deg ,#f72585 20%,#4ea8de 70%);
+}
+.class-tbody tr{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 4px white solid;
+}
+.table-head tr th:nth-child(6n+1){
+    border-top-left-radius: 10px;
+    margin-right: 20px;
+}
+
+.table-head tr th:nth-child(5){
+    border-top-right-radius: 10px;
+    margin-right: 20px;
+}

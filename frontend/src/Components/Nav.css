@@ -1,0 +1,64 @@
+.side-bar{
+    background:linear-gradient(#006466 20%,#4d194d 80%) ;
+    height:100%;
+    width: 250px;
+}
+.nav-bar ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.nav-bar h5{
+    text-align: center;
+    color: white;
+}
+.logo{
+    background: turquoise;
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    margin-top: 20px;
+}
+.nav-bar ul li a{
+    font-size: 18px;
+    color: white;   
+}
+.nav-bar ul li{
+    text-align: center;
+    border: 1px  white solid;
+    width:90%;
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    box-shadow: 0px 4px 5px black;
+}
+.nav-bar ul li i{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+}
+.nav-bar ul li:hover{
+    border: 1px  white solid;
+    background: linear-gradient(200deg,#48bfe3,#a23ddd) no-repeat;
+   
+}
+
+.logout{
+    width: 100%;
+    background: transparent;
+    font-size:18px;
+    border: none;
+    color: white;
+}
+.logout i {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+    
+}
+.active{
+    padding: 0;
+    background-color: deeppink;
+    color: black;
+}

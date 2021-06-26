@@ -1,0 +1,74 @@
+.main-content{
+    background: linear-gradient(#48bfe3,#e2afff) no-repeat;
+    height:100%;
+    width: 100%;
+    position: fixed;
+}
+.form-styleR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    border-radius: 5px;
+    height: 480px;
+    background: linear-gradient(#ffffff 50%,#f6f2ff 100%);
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: #7c7c7c 5px 3px 5px;
+}
+.form-styleR > h4{
+    font-size: 28px;
+    padding: 20px;
+}
+.options{
+    padding: 10px;
+}
+.options > a {
+    font-size: 14px;
+    margin-right:15px;
+    margin-left: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fa-instagram {
+        font-size: 30px;      
+    	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+        background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+        background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+       margin-left: 20px;
+}
+.fa-twitter{
+    font-size: 30px;      
+    color:dodgerblue;
+    margin-right: 20px;
+}
+
+
+.InputStyleEmail > input{
+    width:88.2%;
+    border: none;
+    height: 100%;
+    background: #f5f5f5;
+    padding-left: 10px;
+}
+.InputStyleEmail > i{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    margin-right: 5px;
+}
+.InputStyleEmail{
+    border: solid 0.5px;
+    border-color:#e5e5e5 ;
+    border-radius: 3px;
+    width: 300px;
+    height: 45px;;
+    background:#fff ;
+}

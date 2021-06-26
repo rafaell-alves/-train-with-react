@@ -1,0 +1,18 @@
+.div-button > button{
+    width: 250px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border:none;
+    border-radius: 40px;
+    background:#507fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   transition: 1s;
+   box-shadow: #7c7c7c 2px 1px 10px;
+}
+
+.div-button > button:hover{
+    background: #1379f7;
+    box-shadow: #7c7c7c 5px 3px 5px;
+}

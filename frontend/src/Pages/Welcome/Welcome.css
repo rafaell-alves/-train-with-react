@@ -1,0 +1,29 @@
+.content-div{
+    height: 100%;
+    display: flex;
+    
+    background: #e9ecef;
+}
+.content{
+    height: 100%;
+    background: black;
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    margin-right:100px ;
+}
+.image img{
+    width: 350px;
+    margin-top: 10px;
+}
+.div-image{
+    display: flex;
+    flex-direction: row;
+}
+.main-welcome{
+    margin-top: 1%;
+    margin-left: 2%;
+    width:75%;
+}

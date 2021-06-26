@@ -1,0 +1,8 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-boxs;
+}
+html,body,#root,.App{
+    height: 100%;
+}
